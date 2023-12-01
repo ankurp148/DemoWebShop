@@ -23,6 +23,7 @@ public class DWS_Login_01_Test extends BaseClass
 		loginpage.getPasswordTF().sendKeys("ankurp148");
 		logger.log(Status.INFO,"USER ENTER PASSWORD");
 		loginpage.getLoginButton().click();
+                logger.log(Status.INFO,"LOGIN SUCCESSFUL");
 	}
 
 }
